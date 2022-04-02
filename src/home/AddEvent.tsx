@@ -1,6 +1,10 @@
+import { useDispatch } from 'react-redux';
+import { uiOpenModal } from '../actions/ui';
+
 export const AddEvent = () => {
+  const dispatch = useDispatch();
   const openModal = () => {
-    console.log('Open modal');
+    dispatch(uiOpenModal());
   };
 
   return (
