@@ -1,4 +1,4 @@
-import { AddEvent } from './AddEvent';
+import { AddEvent } from '../events/AddEvent';
 import { FeedList } from './FeedList';
 
 export const Home = () => {
